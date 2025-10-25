@@ -1,0 +1,29 @@
+{
+  "processing_timestamp": "2025-10-25T10:57:12.401031",
+  "input_file": "/Users/jefffranzen/Desktop/alice_redcross_master_enriched.csv",
+  "total_records_processed": 85846,
+  "unique_counties": 2357,
+  "unique_chapters": 171,
+  "unique_regions": 40,
+  "unique_divisions": 7,
+  "years_covered": [
+    "2010",
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2019",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "geographic_levels": {
+    "county": 21127,
+    "subcounty": 64719
+  },
+  "county_records_all_years": 21127,
+  "county_records_2023": 2348,
+  "chapter_summary_records": 1532,
+  "region_summary_records": 353,
+  "division_summary_records": 58
+}

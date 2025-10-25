@@ -1,0 +1,29 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp/
+
+# Large files (keep source data local only - too large for GitHub)
+# Source Data/*.csv
+# Source Data/*.json
+
+# Keep compiled outputs small
+*.log

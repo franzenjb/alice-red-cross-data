@@ -1,0 +1,31 @@
+# KEEP - These are the essential files:
+alice_counties_2023_CORRECTED.geojson    # Master file with all counties, all fields
+alice_Northeast_FIXED2.geojson           # Latest Northeast (ready to test)
+alice_counties_all_years.geojson         # Multi-year time series data
+
+# DELETE - Test/experimental files:
+alice_TEST_100.geojson
+alice_TEST2_100.geojson
+alice_NE_Tiny10.geojson
+alice_Batch01.geojson
+alice_Batch02.geojson
+alice_Batch03.geojson
+alice_Batch04.geojson
+alice_Batch05.geojson
+
+# DELETE - Failed attempts:
+alice_counties_2023.geojson              # Old, missing demographics
+alice_counties_2023_COMPLETE.geojson     # Had field inconsistency
+alice_counties_2023_Final.geojson        # Had field inconsistency
+alice_counties_2023_ARCGIS.geojson       # Experimental
+alice_counties_2023_CLEAN.geojson        # Experimental
+alice_Northeast_FINAL.geojson            # Missing fields
+alice_NortheastV2.geojson                # Missing fields
+alice_counties_2023_Northeast.geojson    # Old version
+alice_counties_2023_Southeast.geojson    # Old version
+alice_counties_2023_Midwest.geojson      # Old version
+alice_counties_2023_West.geojson         # Old version
+alice_Northeast_ALICE_ONLY.geojson       # Incomplete (ALICE only)
+alice_Southeast_ALICE_ONLY.geojson       # Incomplete (ALICE only)
+alice_Midwest_ALICE_ONLY.geojson         # Incomplete (ALICE only)
+alice_West_ALICE_ONLY.geojson            # Incomplete (ALICE only)
