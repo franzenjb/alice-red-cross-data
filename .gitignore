@@ -31,3 +31,5 @@ __pycache__/
 # Large boundary files (too large for GitHub)
 Source Data/us_zip_boundaries.geojson
 ArcGIS Outputs/alice_zipcodes_2023.geojson
+Source Data/us_place_boundaries.geojson
+ArcGIS Outputs/alice_places_2023.geojson
