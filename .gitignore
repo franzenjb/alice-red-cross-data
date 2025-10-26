@@ -27,3 +27,7 @@ __pycache__/
 
 # Keep compiled outputs small
 *.log
+
+# Large boundary files (too large for GitHub)
+Source Data/us_zip_boundaries.geojson
+ArcGIS Outputs/alice_zipcodes_2023.geojson
