@@ -33,3 +33,5 @@ Source Data/us_zip_boundaries.geojson
 ArcGIS Outputs/alice_zipcodes_2023.geojson
 Source Data/us_place_boundaries.geojson
 ArcGIS Outputs/alice_places_2023.geojson
+ArcGIS Outputs/alice_zipcodes_2023_FIXED.geojson
+ArcGIS Outputs/alice_places_2023_FIXED.geojson
