@@ -153,20 +153,51 @@ Shapefiles truncate field names to 10 characters. Here's a quick reference:
 
 ---
 
+---
+
+### **3. alice_zipcodes_2023_PROPER.zip** (64.9 MB) ✨ NEW!
+- **Format:** Shapefile (compressed ZIP)
+- **Coverage:** 33,791 US ZIP codes
+- **Fields:** 16 essential fields (truncated to 10 characters)
+- **Status:** ✅ Ready for ArcGIS Online upload
+
+**What's Included:**
+- **ZIP Code Boundaries:** All US ZIP Code Tabulation Areas (ZCTAs)
+- **Red Cross Organization:** Chapter, Region, Division (inherited from parent county)
+- **Census Demographics 2023:** Population, income, age, unemployment, diversity (inherited from parent county)
+- **ALICE Vulnerability Data:** Combined rate, poverty rate, ALICE rate (inherited from parent county, where available)
+
+**Data Quality:**
+- ✅ **98.6% of ZIP codes** have correct Red Cross Chapter/Region/Division assignments
+- ✅ **96.6% of ZIP codes** have ALICE vulnerability data
+- ✅ Data properly inherited from parent county using spatial join (point-in-polygon)
+- ✅ Verified accuracy: Detroit ZIP 48225 correctly shows Michigan chapter (not Texas!)
+
+**Use This For:**
+- ZIP code-level mapping layer
+- Sub-county vulnerability analysis
+- Adding ZIP layer to existing county map
+- Fine-grained Red Cross service area analysis
+
+**How Data Is Inherited:**
+Each ZIP code centroid is spatially matched to its parent county, then inherits:
+- Red Cross Chapter/Region/Division from that county
+- Demographics (population, income, age, etc.) from that county
+- ALICE vulnerability metrics from that county
+
+---
+
 ## ⚠️ **IMPORTANT NOTES**
 
-### **ZIP Codes and Places Files - NOT AVAILABLE**
+### **OLD ZIP Codes File - REMOVED**
 
-**The ZIP code and Places files have been removed because they contained incorrect data.**
+**The previous `alice_zipcodes_2023.zip` file has been removed because it contained incorrect data.**
 
 - 68% of ZIP codes had "Not Assigned" for Chapter/Region
 - The remaining 32% had **wrong chapter assignments** (e.g., Detroit ZIP showing Texas chapter)
 - The County FIPS join logic was fundamentally flawed
 
-**These files will NOT be recreated.** If you need sub-county analysis, consider:
-1. Using county-level data as the finest granularity
-2. Creating custom ZIP code aggregations in ArcGIS Online after upload
-3. Waiting for proper ALICE ZIP code data with correct Red Cross assignments
+**NEW FILE AVAILABLE:** Use `alice_zipcodes_2023_PROPER.zip` instead (see above)
 
 ---
 
