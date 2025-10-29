@@ -1,5 +1,21 @@
 # 🗺️ ALICE & Red Cross Demographics Data Repository
 
+> ## ⚠️ ARCHIVED - October 29, 2025
+>
+> **This repository has been archived and is no longer maintained.**
+>
+> **→ For current ALICE data, please visit:** [alice_master_database](https://github.com/franzenjb/alice_master_database)
+>
+> The alice_master_database repository contains all the data from this repository plus:
+> - Complete consolidated datasets for 33 states
+> - Map-ready GeoJSON files
+> - Comprehensive documentation
+> - Active maintenance and updates
+>
+> This repository remains available for reference and methodology documentation.
+
+---
+
 **Repository Purpose:** Complete dataset combining ALICE (Asset Limited, Income Constrained, Employed) economic vulnerability data with American Red Cross organizational boundaries and US Census demographics.
 
 **Last Updated:** October 26, 2025
